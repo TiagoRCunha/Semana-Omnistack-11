@@ -25,7 +25,7 @@ export default function Register() {
       email,
       whatsapp,
       city,
-      uf
+      uf,
     };
 
     try {
@@ -52,7 +52,7 @@ export default function Register() {
 
           <Link className="back-link" to="/">
             <FiArrowLeft size={16} color="#E02041" />
-            Não tenho cadastro
+            Já tenho cadastro
           </Link>
         </section>
         <form onSubmit={handleRegister}>
@@ -60,19 +60,19 @@ export default function Register() {
             type="text"
             placeholder="Nome da ONG"
             value={name}
-            onChange={e => setName(e.target.value)}
+            onChange={(e) => setName(e.target.value)}
           />
           <input
             type="email"
             placeholder="E-mail"
             value={email}
-            onChange={e => setEmail(e.target.value)}
+            onChange={(e) => setEmail(e.target.value)}
           />
 
           <input
             placeholder="Whatsapp"
             value={whatsapp}
-            onChange={e => setWhatsapp(e.target.value)}
+            onChange={(e) => setWhatsapp(e.target.value)}
           />
 
           <div className="input-group">
@@ -80,14 +80,14 @@ export default function Register() {
               type="text"
               placeholder="Cidade"
               value={city}
-              onChange={e => setCity(e.target.value)}
+              onChange={(e) => setCity(e.target.value)}
             />
             <input
               type="text"
               placeholder="UF"
               style={{ width: 80 }}
               value={uf}
-              onChange={e => setUf(e.target.value)}
+              onChange={(e) => setUf(e.target.value)}
             />
           </div>
 
