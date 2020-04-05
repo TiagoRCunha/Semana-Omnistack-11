@@ -4,11 +4,11 @@
 
 - [x] Versão Vue da aplicação web
 
-- [] Versão da api com typescript
-- [] mudar a ORM
-- [] terminar o CRUD das rotas
+- [ ] Versão da api com typescript
+- [ ] mudar a ORM
+- [ ] terminar o CRUD das rotas
 
-- [] Testes de integração nas rotas
-- [] Middlewares em todas as rotas
-- [] autenticação com JWT
-- [] Styled Components
+- [ ] Testes de integração nas rotas
+- [ ] Middlewares em todas as rotas
+- [ ] autenticação com JWT
+- [ ] Styled Components
